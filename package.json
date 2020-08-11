@@ -1,14 +1,29 @@
 {
-  "name": "simple-runner",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@m.moelter/task-runner",
+  "version": "1.0.1",
+  "description": "Combine javascript functions and bash commands in your node scripts",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "node",
+    "commands",
+    "bash",
+    "tasks"
+  ],
+  "files": [
+    "src/index.js"
+  ],
+  "author": "Merlin Moelter",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tracer1337/task-runner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tracer1337/task-runner/issues"
+  },
+  "homepage": "https://github.com/Tracer1337/task-runner",
   "dependencies": {
     "chalk": "^4.1.0",
     "ora": "^5.0.0"

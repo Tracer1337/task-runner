@@ -1,4 +1,4 @@
-# Simple Runner
+# Task Runner
 
 Combine javascript functions and bash commands in your node scripts. Every task will be displayed with a spinner in the command line.
 
@@ -30,7 +30,7 @@ Executed in 0.08s
 
 ## Installation
 
-``npm install simple-runner``
+``npm install @m.moelter/task-runner``
 
 ## Usage
 
@@ -52,7 +52,7 @@ exec(commands, [options])
 
 ```js
 options: {
-    // If set to true, any error throws while exeuting the command(s) will be ignored
+    // If set to true, any error thrown while exeuting the command(s) will be ignored
     skipErrors: Boolean
 }
 ```
