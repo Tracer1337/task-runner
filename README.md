@@ -28,17 +28,17 @@ async function removeGitRepo() {
 Executed in 0.08s
 ```
 
-### Installation
+## Installation
 
 ``npm install simple-runner``
 
-### Usage
+## Usage
 
 The ``exec`` function is used to execute bash commands and ``run`` will execute an async function. Create your tasks using async functions, use ``exec`` inside them and run them using ``run``. ``makeRunnable`` should be called in your script's main file and execute all of your tasks. If your scripts are big enough you may encapsulate every task in it's own file.
 
-### API
+## API
 
-##### exec
+### exec
 
 Executes the given command(s) using node's integrated ``require("child_process").exec`` function.
 
@@ -71,7 +71,7 @@ await exec([
 ], { skipErrors: true })
 ```
 
-##### run
+### run
 
 Runs an (asynchronous) function and displays a spinner and the execution time.
 
@@ -95,7 +95,7 @@ async function createGitRepo() {
 }
 ```
 
-##### makeRunnable
+### makeRunnable
 
 Creates a function which executes the given function and provides statistics.
 
