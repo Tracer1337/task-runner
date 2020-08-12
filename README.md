@@ -1,4 +1,14 @@
-# Task Runner
+<h1 align="center">Task Runner</h1>
+
+<p align="center">
+    <a href="https://www.npmjs.com/package/@m.moelter/task-runner">
+        <img src="https://img.shields.io/bundlephobia/min/@m.moelter/task-runner" alt="Size" /></a>
+    <a href="https://www.npmjs.com/package/@m.moelter/task-runner">
+        <img src="https://img.shields.io/npm/dm/@m.moelter/task-runner" alt="Downloads" /></a>
+    <a href="https://github.com/Tracer1337/task-runner">
+        <img src="https://img.shields.io/github/stars/Tracer1337/task-runner?style=social" alt="Stars" /></a>
+</p>
+
 
 Combine javascript functions and bash commands in your node scripts. Every task will be displayed with a spinner in the command line.
 
