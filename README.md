@@ -95,6 +95,8 @@ run(fn, title)
 
 ``title: String`` The text shown in the terminal while the function is running
 
+``spinnerOptions: Object`` The options passed to the ora instance
+
 **Example**
 
 ```js

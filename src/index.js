@@ -27,8 +27,11 @@ async function exec(command, options) {
     }
 }
 
-async function run(fn, title) {
-    const spinner = ora(title).start()
+async function run(fn, title, spinnerOptions) {
+    const spinner = ora({
+        text: title,
+        ...(spinnerOptions || {})
+    }).start()
     const startTime = performance.now()
 
     try {
