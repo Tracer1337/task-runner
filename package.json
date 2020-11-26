@@ -1,6 +1,6 @@
 {
   "name": "@m.moelter/task-runner",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Combine javascript functions and bash commands in your node scripts",
   "main": "src/index.js",
   "scripts": {
